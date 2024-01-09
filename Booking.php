@@ -1,0 +1,10 @@
+<?php
+session_start();
+error_reporting(0);
+if(strlen($_session['alogin'])==0)
+     {
+header('location:index.php');
+}
+else{
+    if(isset($_request['eid']))
+}
